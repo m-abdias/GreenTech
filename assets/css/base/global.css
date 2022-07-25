@@ -5,6 +5,7 @@
   --primary-color: #63994b;
   --secundary-color: #e3fdd8;
   --text-white: #f9f5ff;
+  --text-black: #2d2d2d;
 
   --primary-font: 'Roboto', sans-serif;
 }
@@ -21,7 +22,7 @@ body {
   align-items: center;
   justify-content: start;
   background-color: var(--background-color);
-  color: var(--text-white);
+  color: var(--text-black);
   height: 4000px;
 }
 

@@ -35,8 +35,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem;
   transition: color ease-in-out 0.2s;
+}
+
+.link__bold {
+  font-weight: 700;
 }
 
 .header__link:hover {

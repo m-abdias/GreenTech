@@ -5,6 +5,9 @@ main {
 
 #home {
   position: relative;
+  background-color: var(--secundary-color);
+  padding-bottom: 20rem;
+  z-index: -1;
 }
 
 .carousel-item {
