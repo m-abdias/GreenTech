@@ -20,6 +20,10 @@
     transition: 0.3s;
     border-radius: 1px;
   }
+  .header.scroll .menu-toggle__one,
+  .header.scroll .menu-toggle__three {
+    background-color: var(--secundary-color);
+  }
 
   .menu-toggle__three {
     width: 70%;
@@ -28,7 +32,7 @@
 
   .header__menu-toggle:hover .menu-toggle__one,
   .header__menu-toggle:hover .menu-toggle__three {
-    background-color: var(--primary-color);
+    background-color: transparent;
   }
 
   .header__menu-toggle {
