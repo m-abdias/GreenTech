@@ -11,6 +11,15 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
     <!-- Estilização CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -50,8 +59,103 @@
     </header>
 
     <main>
-      <section class="home" id="home"></section>
+      <section class="home" id="home">
+        <!--Carousel bootstrap-->
+        <div
+          id="carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+          data-bs-animation="1000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/Agriculture.webp"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>AGRO</h1>
+                <p>Soluções para reduzir o desperdício dos alimentos</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./assets/img/fruit.png"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>AGRO</h1>
+                <p>Soluções para reduzir o desperdício dos alimentos</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./assets/img/harvest.png"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>AGRO</h1>
+                <p>Soluções para reduzir o desperdício dos alimentos</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./assets/img/vegetables.png"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>AGRO</h1>
+                <p>Soluções para reduzir o desperdício dos alimentos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="./assets/js/menu-toggle.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
