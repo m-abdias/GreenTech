@@ -8,12 +8,13 @@
   }
   .header__logo {
     z-index: 999;
+    color: var(--primary-color);
   }
   /* ----- Menu Toggle ----- */
 
   .menu-toggle__one,
   .menu-toggle__three {
-    background-color: var(--text-white);
+    background-color: var(--primary-color);
     height: 3px;
     width: 100%;
     transition: 0.3s;
@@ -51,7 +52,7 @@
     height: 100vh;
     z-index: 40;
 
-    background-color: black;
+    background-color: var(--primary-color);
     background-size: cover;
     background-position: top;
   }
@@ -94,7 +95,7 @@
     justify-content: start;
     padding: 1.5rem 1.5rem;
     color: var(--text-white);
-    background-color: black;
+    background-color: var(--primary-color);
     border-bottom: 2px solid var(--text-white);
 
     font-size: 2rem;
@@ -109,8 +110,8 @@
   }
 
   .header__link:hover {
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
+    color: var(--secundary-color);
+    border-bottom: 2px solid var(--secundary-color);
     opacity: 1;
   }
 }
