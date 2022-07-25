@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 3rem;
   z-index: 500;
-  margin-top: -100px;
+  margin: -10rem 0 15rem 0;
 }
 
 .benefits__card {

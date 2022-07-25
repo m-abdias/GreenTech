@@ -1,9 +1,5 @@
-main {
-  width: 100%;
-  position: relative;
-}
-
 #home {
+  width: 100%;
   position: relative;
   background-color: var(--secundary-color);
   padding-bottom: 20rem;
