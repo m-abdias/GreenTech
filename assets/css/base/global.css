@@ -1,0 +1,17 @@
+:root {
+  --background-color: #d1d1d1;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+main {
+  width: 100%;
+  max-width: 1300px;
+}
