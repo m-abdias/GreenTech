@@ -1,10 +1,9 @@
 /* base */
 @import url(./base/reset.css);
 @import url(./base/global.css);
-/* components */
-@import url(./components/menu-toggle.css);
 /* lading page */
 @import url(./layout/landing_page/header.css);
+@import url(./components/menu-toggle.css);
 @import url(./layout/landing_page/home.css);
 @import url(./layout/landing_page/benefits.css);
 @import url(./layout/landing_page/about.css);
