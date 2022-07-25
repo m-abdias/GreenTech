@@ -8,3 +8,29 @@
 @import url(./layout/landing_page/home.css);
 @import url(./layout/landing_page/benefits.css);
 @import url(./layout/landing_page/about.css);
+@import url(./layout/landing_page/services.css);
+
+.about,
+.services {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 4.8rem;
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+.about__title,
+.services__title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.about__subtitle,
+.services__subtitle {
+  font-size: 5.8rem;
+  font-weight: bold;
+  line-height: 110%;
+  margin-bottom: 10rem;
+}
