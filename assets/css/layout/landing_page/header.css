@@ -31,7 +31,6 @@
 
 .header__logo.on {
   color: var(--secundary-color);
-  font-size: 2.8rem;
 }
 
 .header.scroll .header__logo {
@@ -64,4 +63,25 @@
 .header__link:hover,
 .header.scroll .header__link:hover {
   color: var(--hover);
+}
+
+@media (max-width: 900px) {
+  .header__content {
+    padding: 2.4rem 3.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__content {
+    padding: 2.4rem 2.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__content {
+    padding: 1.2rem 1.2rem;
+  }
+  .header__logo {
+    font-size: 2.2rem;
+  }
 }

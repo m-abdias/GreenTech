@@ -14,3 +14,65 @@
   font-weight: 400;
   text-align: start;
 }
+
+@media (max-width: 1200px) {
+  .about__text {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .about__content {
+    gap: 2rem;
+  }
+  .about__img {
+    width: 450px;
+  }
+  .about__text {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .about__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__text {
+    order: -1;
+    text-align: justify;
+  }
+
+  .about__img {
+    width: 100%;
+  }
+
+  .about__text {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .about__text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .about__text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .about__text {
+    font-size: 1.4rem;
+  }
+}

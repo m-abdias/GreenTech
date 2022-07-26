@@ -73,3 +73,29 @@
     width: 100%;
   }
 }
+@media (max-width: 640px) {
+  .form__name,
+  .form__phone,
+  .form__email,
+  .form__subject,
+  .form__message {
+    font-size: 1.6rem;
+  }
+
+  .form__first-line,
+  .form__second-line {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__name,
+  .form__phone,
+  .form__email,
+  .form__subject,
+  .form__message {
+    padding: 1.4rem;
+    font-size: 1.4rem;
+  }
+}

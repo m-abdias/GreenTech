@@ -15,24 +15,16 @@
   background-color: var(--btn-hover);
 }
 
-/* Responsividade */
-@media (max-width: 1240px) {
+@media (max-width: 640px) {
   .button {
-    font-size: 1.6rem;
-    padding: 10px 29px;
+    font-size: 1.8rem;
+    padding: 1rem 8.8rem;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 480px) {
   .button {
-    font-size: 1.3rem;
-    padding: 8px 23px;
-  }
-}
-/* - - - - - Mobile Pequeno - - - - */
-@media (max-width: 470px) {
-  .button {
-    font-size: 1.1rem;
-    padding: 7px 19px;
+    font-size: 1.6rem;
+    padding: 0.8rem 8rem;
   }
 }
