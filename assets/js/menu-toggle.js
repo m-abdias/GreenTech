@@ -19,9 +19,11 @@ menuToggle.addEventListener('click', () => {
 /* apenas Esconde o menu mobile (se tiver visível) e ativa a rolagem da página (se tiver desativada), ao clickar nos links de navegação  */
 for (let i = 0; i < buttonsToggle.length; i++) {
   buttonsToggle[i].addEventListener('click', () => {
-    document.body.style.overflow = 'initial'
-    menuSection.classList.toggle('on', show)
-    logo.classList.toggle('on', show)
-    show = !show
+    if (screen.width <= 900) {
+      document.body.style.overflow = 'initial'
+      menuSection.classList.toggle('on', show)
+      logo.classList.toggle('on', show)
+      show = !show
+    }
   })
 }

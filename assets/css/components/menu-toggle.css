@@ -160,16 +160,14 @@
     border-bottom: 2px solid var(--hover);
     opacity: 1;
   }
-}
-
-.header__menu-section.on .header__list {
-  gap: 1rem;
+  .header__menu-section.on .header__list {
+    gap: 1rem;
+  }
 }
 
 /* - - - - - Tablet - - - - - - - - */
 @media (max-width: 900px) {
   /* ----- Menu Toggle ----- */
-
   .menu-toggle__one,
   .menu-toggle__three {
     height: 2px;
