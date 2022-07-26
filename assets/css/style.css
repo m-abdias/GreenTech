@@ -3,23 +3,30 @@
 @import url(./base/global.css);
 /* lading page */
 @import url(./layout/landing_page/header.css);
-@import url(./components/menu-toggle.css);
 @import url(./layout/landing_page/home.css);
 @import url(./layout/landing_page/benefits.css);
 @import url(./layout/landing_page/about.css);
 @import url(./layout/landing_page/services.css);
+@import url(./layout/landing_page/contacts.css);
+@import url(./layout/landing_page/contacts.css);
+
+/* components */
+@import url(./components/menu-toggle.css);
+@import url(./components/button.css);
 
 .about,
-.services {
+.services,
+.contact {
   width: 100%;
   max-width: 1300px;
   padding: 0 4.8rem;
   text-align: center;
-  margin-bottom: 15rem;
+  padding-top: 15rem;
 }
 
 .about__title,
-.services__title {
+.services__title,
+.contact__title {
   font-size: 3.2rem;
   font-weight: bold;
   color: var(--primary-color);

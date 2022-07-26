@@ -29,6 +29,11 @@
   font-size: 2.8rem;
 }
 
+.header__logo.on {
+  color: var(--secundary-color);
+  font-size: 2.8rem;
+}
+
 .header.scroll .header__logo {
   color: var(--secundary-color);
 }

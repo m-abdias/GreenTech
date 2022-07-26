@@ -37,7 +37,7 @@
                 <a class="header__link" href="#about"> Sobre </a>
               </li>
               <li class="header__item">
-                <a class="header__link" href="#projects"> Serviços </a>
+                <a class="header__link" href="#services"> Serviços </a>
               </li>
               <li class="header__item">
                 <a class="header__link" href="#contact"> Contatos </a>
@@ -296,6 +296,75 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__header">
+          <h2 class="contact__title">Contate-nos</h2>
+        </div>
+
+        <div class="contact__content">
+          <form class="contact__form" method="post">
+            <div class="form__first-line">
+              <input
+                class="form__name"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nome"
+                required
+              />
+
+              <input
+                class="form__phone"
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Telefone"
+                required
+              />
+            </div>
+
+            <div class="form__second-line">
+              <input
+                class="form__email"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+
+              <input
+              class="form__subject"
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Serviço de Interesse"
+              required
+            />
+            </div>
+
+            <textarea
+              class="form__message"
+              id="message"
+              name="message"
+              cols="30"
+              rows="20"
+              placeholder="Mensagem"
+              required
+            ></textarea>
+
+            <button
+              class="button button--animate form__button"
+              id="btn"
+            >
+              Enviar
+              <span class="button__span"></span>
+            </button>
+          </form>
+        </div>
+      </div>
       </section>
     </main>
     <script src="./assets/js/menu-toggle.js"></script>

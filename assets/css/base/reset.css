@@ -11,6 +11,8 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
+  padding: 0;
 }
