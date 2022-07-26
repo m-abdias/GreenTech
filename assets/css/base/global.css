@@ -26,7 +26,6 @@ body {
   justify-content: start;
   background-color: var(--background-color);
   color: var(--text-black);
-  padding-bottom: 4rem;
 }
 
 main {
