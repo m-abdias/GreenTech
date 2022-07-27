@@ -92,7 +92,8 @@
 }
 
 /* card */
-.products__cards-box {
+.products__cards-box,
+.products__my-products {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
