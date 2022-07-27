@@ -1,5 +1,7 @@
 let show = false
 
+const linkItems = document.querySelectorAll('.sidebar li a')
+
 const body = document.querySelector('body')
 const sidebar = body.querySelector('aside')
 const toggle = body.querySelector('.toggle')
@@ -9,10 +11,12 @@ const logo = document.querySelector('.header__logo-box')
 
 toggle.addEventListener('click', () => {
   sidebar.classList.toggle('close', show)
-  show
-    ? (logo.innerHTML = `<span class="image"> LG </span>`)
-    : (logo.innerHTML = `<span class="image"> LOGOTIPO </span>`)
-  show = !show
+  setTimeout(() => {
+    show
+      ? (logo.innerHTML = `<span class="image"> LG </span>`)
+      : (logo.innerHTML = `<span class="image"> LOGOTIPO </span>`)
+    show = !show
+  }, 100)
 })
 
 modeSwitch.addEventListener('click', () => {
@@ -24,3 +28,4 @@ modeSwitch.addEventListener('click', () => {
     modeText.innerText = 'Light mode'
   }
 })
+
