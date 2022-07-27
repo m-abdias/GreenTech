@@ -208,32 +208,6 @@ body.dark .switch::before {
   left: 20px;
 }
 
-.home {
-  position: absolute;
-  top: 79px;
-  left: 250px;
-  height: 100vh;
-  width: calc(100% - 250px);
-  background-color: var(--body-color);
-  transition: all 0.3s ease;
-}
-.home .text {
-  font-size: 30px;
-  font-weight: 500;
-  color: var(--text-color);
-  padding: 12px 60px;
-}
-
-.sidebar.close ~ .home {
-  left: 78px;
-  height: 100vh;
-  width: calc(100% - 78px);
-}
-
-body.dark .home .text {
-  color: var(--text-color);
-}
-
 .sidebar li a.active {
   background-color: var(--primary-color);
 }
@@ -243,6 +217,33 @@ body.dark .home .text {
   color: var(--active-sidebar);
 }
 
-.section-Dashboard {
+.section-Dashboard:not(.products) {
   display: none;
+}
+
+.section-Dashboard .text {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+  padding: 12px 60px;
+}
+
+.sidebar.close ~ .section-Dashboard {
+  left: 88px;
+  height: 100vh;
+  width: calc(100% - 78px);
+}
+
+.section-Dashboard {
+  position: absolute;
+  top: 79px;
+  left: 250px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  background-color: var(--body-color);
+  transition: all 0.3s ease;
+}
+
+body.dark .section-Dashboard .text {
+  color: var(--text-color);
 }

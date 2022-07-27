@@ -4,6 +4,7 @@
 /* dashboard */
 @import url(./dashboard/sidebar.css);
 @import url(./dashboard/header.css);
+@import url(./dashboard/products.css);
 
 body {
   min-height: 100vh;
