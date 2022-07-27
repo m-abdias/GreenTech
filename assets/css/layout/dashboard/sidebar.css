@@ -233,3 +233,16 @@ body.dark .switch::before {
 body.dark .home .text {
   color: var(--text-color);
 }
+
+.sidebar li a.active {
+  background-color: var(--primary-color);
+}
+
+.sidebar li a.active .icon,
+.sidebar li a.active .text {
+  color: var(--active-sidebar);
+}
+
+.section-Dashboard {
+  display: none;
+}
