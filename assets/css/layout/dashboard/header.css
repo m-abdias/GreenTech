@@ -17,6 +17,17 @@
   padding: 0 3.2rem;
 }
 
+.section-Dashboard__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
 .sidebar.close ~ .header {
   left: 88px;
   width: calc(100% - 88px);

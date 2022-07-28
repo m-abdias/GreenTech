@@ -1,0 +1,75 @@
+.inventory__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.inventory__item {
+  background-color: var(--text-white);
+  padding: 1.4rem;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inventory__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.inventory__img-box {
+  width: 50px;
+  display: flex;
+}
+
+.inventory__img {
+  width: 100%;
+}
+
+.inventory__title {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.inventory__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+
+  color: var(--text-black);
+  font-size: 1.5rem;
+}
+
+.inventory__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icon__money {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--text-white);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.icon__points {
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  cursor: pointer;
+}
