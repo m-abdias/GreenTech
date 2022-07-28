@@ -13,6 +13,10 @@
   display: block;
 }
 
+.input--margin-l {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 1024px) {
   .contact__content {
     width: 100%;
