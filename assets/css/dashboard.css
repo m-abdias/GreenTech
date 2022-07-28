@@ -1,6 +1,7 @@
 /* base */
 @import url(./base/global.css);
 @import url(./base/reset.css);
+
 /* dashboard */
 @import url(./layout/dashboard/sidebar.css);
 @import url(./layout/dashboard/header.css);
@@ -10,6 +11,8 @@
 /* components */
 @import url(./components/modal.css);
 @import url(./components/button-modal.css);
+@import url(./components/button.css);
+@import url(./components/input.css);
 
 body {
   min-height: 100vh;

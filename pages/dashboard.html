@@ -413,15 +413,20 @@
 
     <section class="section-Dashboard inventory">
       <header class="section-Dashboard__header">
-        <nav class="products__navegation">
+        <nav class="products__navegation inventory__navegation">
           <ul class="products__list">
             <li class="products__item">
-              <a class="products__link select" href="#">Meu Estoque</a>
+              <a class="products__link inventory__link select" href="#"
+                >Meu Estoque</a
+              >
             </li>
             <li class="products__item">
-              <a class="products__link" href="#">Estoque Vendido</a>
+              <a class="products__link inventory__link" href="#"
+                >Estoque Vendido</a
+              >
             </li>
           </ul>
+          <a class="button button--md inventory__btn">Adicionar Produção</a>
         </nav>
 
         <div class="products__search-box search-box">
@@ -562,6 +567,127 @@
         </div>
       </div>
 
+      <!--Modal-->
+      <div id="fadeNewInventory" class="hide modal__fade"></div>
+      <div id="modalNewInventory" class="hide modal modal--modalNewInventory">
+        <div class="modal__body modalInventory__body">
+          <div class="modalInventory__content">
+            <div class="modalInventory__info">
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="email"
+                  >Produto Produzido</label
+                >
+                <select class="input input--green" name="email">
+                  <option value="Selecione seu produto">
+                    Selecione seu produto
+                  </option>
+                  <option value="Selecione seu produto">Laranja</option>
+                  <option value="Selecione seu produto">Maçã</option>
+                  <option value="Selecione seu produto">Alface</option>
+                  <option value="Selecione seu produto">Laranja</option>
+                </select>
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="quantidade"
+                  >Quantidade produzida</label
+                >
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="quantidade"
+                  placeholder="Insira um valor em Kg"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="venda"
+                  >Valor de Venda (estimado)</label
+                >
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="venda"
+                  placeholder="Informe um valor em R$"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="frete"
+                  >Valor de Frete</label
+                >
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="frete"
+                  placeholder="Informe um valor em R$"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="lote">Lote</label>
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="lote"
+                  placeholder="Informe o N° do lote"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="gastos"
+                  >Gatos com a Produção</label
+                >
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="gastos"
+                  placeholder="Informe um valor em R$"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="data"
+                  >Data da colheita</label
+                >
+                <input
+                  class="input input--green"
+                  type="date"
+                  name="data"
+                  placeholder="Informe um valor em R$"
+                  required
+                />
+              </div>
+
+              <div class="modalInventory__input-box">
+                <label class="input-box__label" for="temperatura"
+                  >Temperatura</label
+                >
+                <input
+                  class="input input--green"
+                  type="number"
+                  name="temperatura"
+                  placeholder="Informe um valor em °C"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="modalInventory__btn-box">
+              <button id="" class="modal__btn">Criar</button>
+              <button id="close-modal-newinventory" class="modal__btn">
+                Cancelar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="inventory__content">
         <div class="inventory__item">
           <div class="inventory__info">
@@ -650,5 +776,6 @@
     <script src="../assets/js/sidebar.js"></script>
     <script src="../assets/js/products.js"></script>
     <script src="../assets/js/modal.js"></script>
+    <script src="../assets/js/inventory.js"></script>
   </body>
 </html>

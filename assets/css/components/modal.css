@@ -37,3 +37,13 @@
 .modal.hide {
   top: 0;
 }
+
+.modal--modalNewInventory {
+  width: 700px;
+  padding: 0;
+}
+
+.input-box__label {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+}

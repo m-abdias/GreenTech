@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  cursor: pointer;
 }
 
 .inventory__img-box {
@@ -66,12 +67,14 @@
   color: var(--text-white);
   font-size: 1.4rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .icon__points {
   color: var(--primary-color);
   font-size: 2.4rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Modais */
@@ -155,4 +158,37 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.inventory__item.hide .icon__money {
+  background-color: rgb(179, 179, 179);
+}
+
+.inventory__item.hide .icon__points {
+  color: rgb(179, 179, 179);
+}
+
+.inventory__navegation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalInventory__content {
+  padding: 2rem;
+}
+
+.input__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.modalInventory__btn-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }

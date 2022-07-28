@@ -5,12 +5,20 @@ const modalProducts = document.querySelector('#modal')
 const fadeProducts = document.querySelector('#fade')
 
 //modal da aba estoque
-const openModalButtonInventory = document.querySelector('.inventory__item')
+const openModalButtonInventory = document.querySelector('.inventory__info')
 const closeModalButtonInventory = document.querySelector(
   '#close-modal-inventory'
 )
 const modalInventory = document.querySelector('#modalInventory')
 const fadeInventory = document.querySelector('#fadeInventory')
+
+//modal de um novo estoque
+const openModalButtonNewInventory = document.querySelector('.inventory__btn')
+const closeModalButtonNewInventory = document.querySelector(
+  '#close-modal-newinventory'
+)
+const modalNewInventory = document.querySelector('#modalNewInventory')
+const fadeNewInventory = document.querySelector('#fadeNewInventory')
 
 function showAndCloseModal(modal, fade, closeModalButton, openModalButton) {
   const toggleModal = () => {
@@ -29,15 +37,17 @@ showAndCloseModal(
   closeModalButtonProducts,
   openModalButtonProducts
 )
-console.log(
-  modalInventory,
-  fadeInventory,
-  closeModalButtonInventory,
-  openModalButtonInventory
-)
+
 showAndCloseModal(
   modalInventory,
   fadeInventory,
   closeModalButtonInventory,
   openModalButtonInventory
+)
+
+showAndCloseModal(
+  modalNewInventory,
+  fadeNewInventory,
+  closeModalButtonNewInventory,
+  openModalButtonNewInventory
 )
