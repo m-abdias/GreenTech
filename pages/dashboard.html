@@ -144,7 +144,51 @@
         </div>
       </header>
 
+      <!--Modal-->
+      <div id="fade" class="hide modal__fade"></div>
+      <div id="modal" class="hide modal">
+        <div class="modal__body">
+          <div class="modal__img-box">
+            <img class="modal__img" src="../assets/img/fruits/11.png" alt="" />
+            <button id="close-modal" class="modal__btn">Fechar</button>
+          </div>
+
+          <div class="modal__info-box">
+            <div class="info-box__info">
+              <h6 class="info__title">Temperatura de Armazenamento</h6>
+              <p class="info__text">15°C</p>
+            </div>
+
+            <div class="info-box__info">
+              <h6 class="info__title">Tempo de Armazenamento</h6>
+              <p class="info__text">3 - 4 Semanas</p>
+            </div>
+
+            <div class="info-box__info">
+              <h6 class="info__title">Umidade Relativa</h6>
+              <p class="info__text">90% - 95%</p>
+            </div>
+
+            <div class="info-box__info">
+              <h6 class="info__title">Perda de Peso</h6>
+              <p class="info__text">5,2%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="products__cards-box">
+        <div class="cards-box__item">
+          <div class="item__status">
+            <i class="bx bx-check status__icon"></i>
+          </div>
+          <div class="item__info">
+            <img class="info__img" src="../assets/img/fruits/11.png" alt="" />
+            <p class="info__text">Banana</p>
+          </div>
+          <a class="item__btn">Ver Detalhes</a>
+        </div>
+
         <div class="cards-box__item">
           <div class="item__status">
             <i class="bx bx-check status__icon"></i>
@@ -163,17 +207,6 @@
           <div class="item__info">
             <img class="info__img" src="../assets/img/fruits/10.png" alt="" />
             <p class="info__text">Maça</p>
-          </div>
-          <a class="item__btn">Ver Detalhes</a>
-        </div>
-
-        <div class="cards-box__item">
-          <div class="item__status">
-            <i class="bx bx-check status__icon"></i>
-          </div>
-          <div class="item__info">
-            <img class="info__img" src="../assets/img/fruits/11.png" alt="" />
-            <p class="info__text">Banana</p>
           </div>
           <a class="item__btn">Ver Detalhes</a>
         </div>
@@ -388,5 +421,6 @@
 
     <script src="../assets/js/sidebar.js"></script>
     <script src="../assets/js/products.js"></script>
+    <script src="../assets/js/modal.js"></script>
   </body>
 </html>

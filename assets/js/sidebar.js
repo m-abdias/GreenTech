@@ -47,5 +47,5 @@ function showSectionDashboard(index) {
     sectionsDashboard[i].style.display = 'none'
   })
 
-  sectionsDashboard[index].style.display = 'flex'
+  sectionsDashboard[index].style.display = 'block'
 }

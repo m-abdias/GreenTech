@@ -6,6 +6,10 @@
 @import url(./dashboard/header.css);
 @import url(./dashboard/products.css);
 
+/* components */
+@import url(../components/modal.css);
+@import url(../components/button-modal.css);
+
 body {
   min-height: 100vh;
   background-color: var(--body-color);
