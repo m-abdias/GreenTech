@@ -1,14 +1,14 @@
 /* base */
-@import url(../base/global.css);
-@import url(../base/reset.css);
+@import url(./base/global.css);
+@import url(./base/reset.css);
 /* dashboard */
-@import url(./dashboard/sidebar.css);
-@import url(./dashboard/header.css);
-@import url(./dashboard/products.css);
+@import url(./layout/dashboard/sidebar.css);
+@import url(./layout/dashboard/header.css);
+@import url(./layout/dashboard/products.css);
 
 /* components */
-@import url(../components/modal.css);
-@import url(../components/button-modal.css);
+@import url(./components/modal.css);
+@import url(./components/button-modal.css);
 
 body {
   min-height: 100vh;
