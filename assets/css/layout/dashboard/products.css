@@ -18,7 +18,7 @@
 
 .products__link.select {
   color: #ffffff;
-  background-color: #63994b;
+  background-color: var(--primary-color);
 }
 
 .search-box,

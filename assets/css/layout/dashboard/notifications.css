@@ -1,13 +1,13 @@
-.notification__title {
-  color: var(--text-black);
-  font-size: 1.8rem;
+.notifications__title {
+  color: var(--primary-color);
+  font-size: 2rem;
   font-weight: 500;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  margin-left: 1rem;
+  margin: 0;
 }
 
 .title__icon {
@@ -20,6 +20,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+body.dark .notifications__title {
+  color: var(--text-white);
 }
 
 .notification__title {
