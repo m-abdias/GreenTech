@@ -8,6 +8,7 @@
 @import url(./layout/dashboard/products.css);
 @import url(./layout/dashboard/inventory.css);
 @import url(./layout/dashboard/notifications.css);
+@import url(./layout/dashboard/client.css);
 
 /* components */
 @import url(./components/modal.css);

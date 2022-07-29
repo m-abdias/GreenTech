@@ -94,6 +94,7 @@
   text-align: center;
   margin: 0 auto;
   position: relative;
+  width: 190px;
 }
 
 .item__info {
@@ -102,8 +103,8 @@
 }
 
 .info__img {
-  width: 60%;
-  max-width: 300px;
+  height: 75px;
+  width: auto;
 }
 
 .info__text {

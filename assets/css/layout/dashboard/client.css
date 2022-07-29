@@ -1,0 +1,11 @@
+.client__img {
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.client__title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 500;
+}

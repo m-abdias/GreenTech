@@ -98,5 +98,3 @@ async function showFoods() {
 }
 
 showFoods()
-
-//Esse codigo lista todos os elementos do backend na tela, mas ele não deixa mais os elementos receberem o evento de click , sendo assim, desativando os modais.
