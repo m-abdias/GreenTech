@@ -9,6 +9,7 @@
 @import url(./layout/dashboard/inventory.css);
 @import url(./layout/dashboard/notifications.css);
 @import url(./layout/dashboard/client.css);
+@import url(./layout/dashboard/faq.css);
 
 /* components */
 @import url(./components/modal.css);
