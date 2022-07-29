@@ -4,5 +4,6 @@
 @import url(./components/input.css);
 @import url(./components/button__form.css);
 @import url(./components/form__login.css);
+@import url(./components/logo.css);
 /* layout */
 @import url(./layout/login/login.css);

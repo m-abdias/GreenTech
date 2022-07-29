@@ -57,12 +57,17 @@
 
 .header.scroll .header__link {
   color: var(--secundary-color);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.header__link:hover,
+.header__link:hover {
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
 .header.scroll .header__link:hover {
-  color: var(--hover);
+  color: var(--text-white);
+  opacity: 0.8;
 }
 
 @media (max-width: 900px) {

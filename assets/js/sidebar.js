@@ -14,8 +14,14 @@ toggle.addEventListener('click', () => {
   sidebar.classList.toggle('close', show)
   setTimeout(() => {
     show
-      ? (logo.innerHTML = `<span class="image"> LG </span>`)
-      : (logo.innerHTML = `<span class="image"> LOGOTIPO </span>`)
+      ? (logo.innerHTML = `          
+          <h2 class="image logo logo--dashboard ">
+            G<span class="logo__span--dashboard">T</span>
+          </h2>`)
+      : (logo.innerHTML = `   
+          <h2 class="image logo logo--dashboard ">
+            Green<span class="logo__span--dashboard">Tech</span>
+          </h2>`)
     show = !show
   }, 100)
 })

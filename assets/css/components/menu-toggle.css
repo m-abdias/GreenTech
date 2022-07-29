@@ -51,7 +51,7 @@
 
   .header__menu-toggle:hover .menu-toggle__one,
   .header__menu-toggle:hover .menu-toggle__three {
-    background-color: var(--hover);
+    opacity: 0.5;
   }
 
   .header__menu-toggle {
@@ -156,9 +156,7 @@
   }
 
   .header__link:hover {
-    color: var(--hover);
-    border-bottom: 2px solid var(--hover);
-    opacity: 1;
+    opacity: 0.5;
   }
   .header__menu-section.on .header__list {
     gap: 1rem;
