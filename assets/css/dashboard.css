@@ -39,6 +39,7 @@ body.dark {
   --text-color: #ccc;
   --active-sidebar: #ccc;
   --span-logo-dashboard: #fff;
+  --price-text-color: #2d2d2d;
 }
 
 .section-Dashboard {
