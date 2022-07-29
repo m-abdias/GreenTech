@@ -20,6 +20,15 @@ const closeModalButtonNewInventory = document.querySelector(
 const modalNewInventory = document.querySelector('#modalNewInventory')
 const fadeNewInventory = document.querySelector('#fadeNewInventory')
 
+//modal de um novo Lembrete
+const openModalButtonNewNotification =
+  document.querySelector('.notification__btn')
+const closeModalButtonNewNotification = document.querySelector(
+  '#close-modal-newnotification'
+)
+const modalNewNotification = document.querySelector('#modalNewNotification')
+const fadeNewNotification = document.querySelector('#fadeNewNotification')
+
 function showAndCloseModal(modal, fade, closeModalButton, openModalButton) {
   const toggleModal = () => {
     modal.classList.toggle('hide')
@@ -50,4 +59,11 @@ showAndCloseModal(
   fadeNewInventory,
   closeModalButtonNewInventory,
   openModalButtonNewInventory
+)
+
+showAndCloseModal(
+  modalNewNotification,
+  fadeNewNotification,
+  closeModalButtonNewNotification,
+  openModalButtonNewNotification
 )

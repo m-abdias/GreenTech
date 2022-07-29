@@ -22,9 +22,9 @@
 
 .button--xl {
   text-align: center;
-  width: 300px;
+  width: 250px;
   font-size: 1.4rem;
-  padding: 1.4rem 5rem;
+  padding: 1.4rem 1rem;
 }
 
 @media (max-width: 640px) {

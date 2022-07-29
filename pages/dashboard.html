@@ -447,7 +447,7 @@
         </div>
       </header>
 
-      <!--Modal-->
+      <!--Modal info-->
       <div id="fadeInventory" class="hide modal__fade"></div>
       <div id="modalInventory" class="hide modal">
         <div class="modal__body modalInventory__body">
@@ -474,7 +474,7 @@
                 <p class="modalInventory-item__subtitle">1000kg</p>
               </div>
               <div class="modalInventory__item">
-                <h6 class="modalInventory-item__title">Data deColheita</h6>
+                <h6 class="modalInventory-item__title">Data de Colheita</h6>
                 <p class="modalInventory-item__subtitle">25/05/2022</p>
               </div>
               <div class="modalInventory__item">
@@ -567,7 +567,7 @@
         </div>
       </div>
 
-      <!--Modal-->
+      <!--Modal form-->
       <div id="fadeNewInventory" class="hide modal__fade"></div>
       <div id="modalNewInventory" class="hide modal modal--modalNewInventory">
         <div class="modal__body modalInventory__body">
@@ -790,9 +790,43 @@
             <i class="bx bx-slider-alt"></i>
           </div>
 
-          <a class="button button--xl inventory__btn">Criar Lembretes</a>
+          <a
+            id="notification__btn"
+            class="button button--xl inventory__btn notification__btn"
+            >Criar Lembretes</a
+          >
         </div>
       </header>
+
+      <!--Modal-->
+      <div id="fadeNewNotification" class="hide modal__fade"></div>
+      <div
+        id="modalNewNotification"
+        class="hide modal modal--modalNewInventory"
+      >
+        <div class="modal__body modalInventory__body">
+          <div class="modalInventory__content">
+            <div class="modalInventory__input-box">
+              <label class="input-box__label label--xl" for="lembrete"
+                >Novo Lembrete</label
+              >
+              <input
+                class="input input--green input--negrito"
+                type="text"
+                name="lembrete"
+                placeholder="Digite sua mensagem de Lembrete"
+                required
+              />
+            </div>
+            <div class="modalInventory__btn-box">
+              <button id="" class="modal__btn">CRIAR</button>
+              <button id="close-modal-newnotification" class="modal__btn">
+                CANCELAR
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div class="inventory__content">
         <div class="notification__item">
