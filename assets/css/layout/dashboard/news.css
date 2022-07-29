@@ -1,12 +1,10 @@
 .news__container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 2rem;
 }
 .news__item {
-  max-height: 200px;
-  max-width: 600px;
   display: flex;
   align-items: flex-start;
   justify-content: start;
@@ -33,6 +31,7 @@
   width: 100%;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  object-fit: cover;
 }
 
 .text-box__subtitle {
