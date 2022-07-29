@@ -2,7 +2,7 @@
 @import url(./base/global.css);
 @import url(./base/reset.css);
 
-/* dashboard */
+/* layout */
 @import url(./layout/dashboard/sidebar.css);
 @import url(./layout/dashboard/header.css);
 @import url(./layout/dashboard/products.css);
@@ -10,6 +10,7 @@
 @import url(./layout/dashboard/notifications.css);
 @import url(./layout/dashboard/client.css);
 @import url(./layout/dashboard/faq.css);
+@import url(./layout/dashboard/news.css);
 
 /* components */
 @import url(./components/modal.css);
