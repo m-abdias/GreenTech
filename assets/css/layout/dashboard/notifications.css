@@ -68,4 +68,5 @@ body.dark .notifications__title {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  box-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
 }
