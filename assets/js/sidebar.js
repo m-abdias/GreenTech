@@ -33,7 +33,6 @@ modeSwitch.addEventListener('click', () => {
 // active icon sidebar
 linkItems.forEach((linkItem, index) => {
   linkItem.addEventListener('click', () => {
-    console.log(index)
     document.querySelector('.active').classList.remove('active')
     linkItem.classList.add('active')
 

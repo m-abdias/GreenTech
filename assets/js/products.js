@@ -4,18 +4,15 @@ const addCardButtons = document.querySelectorAll('.item__status')
 const productsButtons = document.querySelectorAll('.products__link')
 
 // troca o icone dos cards (icone de adicionar e icone de adicionado) dos cards dos produtos, e adiciona e retira uma classe deles de acordo com esse click no icone
+
 addCardButtons.forEach((item, i) => {
   item.innerHTML = `<i class="fa-solid fa-plus status__icon"></i>`
   item.addEventListener('click', () => {
     productCards[i].classList.toggle('hide')
 
     item.innerHTML === '<i class="fa-solid fa-plus status__icon"></i>'
-      ? (addCardButtons[
-          i
-        ].innerHTML = `<i class="bx bx-check status__icon"></i>`)
-      : (addCardButtons[
-          i
-        ].innerHTML = `<i class="fa-solid fa-plus status__icon"></i>`)
+      ? (addCardButtons[i].innerHTML = `<i class="bx bx-check status__icon"></i>`)
+      : (addCardButtons[i].innerHTML = `<i class="fa-solid fa-plus status__icon"></i>`)
   })
 })
 
