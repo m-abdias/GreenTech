@@ -27,7 +27,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Bootstrap](https://getbootstrap.com/) (usado apenas para fazer o carousel de imagens)
 
 
-Bibliotecas
+## 📌 Backend
+
+https://github.com/m-abdias/API-AGRO
+
+
+## 🗃️ Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
@@ -37,9 +42,10 @@ Bibliotecas
 
 ## 💻 Projeto
 
-Esse é o meu portfólio pessoal, desenvolvido inicialmente para a conclusão do primeiro desafio de projeto do curso fullstack da Tech Academy - Startse, e que será implementado novas funcionalidades e layouts mais adiante. Tem como objetivo mostrar um pouco sobre mim e sobre minhas habilidades técnicas, assim como meus projetos e qualificações. Foi um projeto bastante desafiador, coloquei em prática várias funcionalidades novas para mim, como um sistema de filtro, enviar mensaguem direto no email via biblioteca JS, etc.
+Esse projeto foi desenvolvido para o Hackathon do Tech Academy - Startse. Tem como objetivo apresentar a solução para o problema de desperdício da produção no Agro. Foi desenvolvido uma Landing Page detalhando a empresa GreenTech (Quem somos, nossa equipe, nossos serviços, soluções implementadas), sendo possível enviar mensagem direto no e-mail via biblioteca JS, criamos também uma área de login para o Dashboard de navegação do produtor, onde serão disponibilizadas informações de Produtos, Estoques, Lembretes, Clientes, Notícias, Perguntas frequentes, entre outros. Foi criado 3 Apis para este projeto (Produtos, Estoques e Clientes), a API de Estoques esta conectada ao banco de dados PostgreSQL. Este projeto foi muito desafiador para todos da equipe, mas nos alinhamos desde o início com sugestões e implementações de acordo com a proposta do Hackathon, colocando em prática várias funcionalidades aprendidas no curso.
 
-## Como usar?
+
+## 📝 Como usar?
 
 Baixe este repositório e com seu teminal, entre no diretório
 
@@ -47,9 +53,22 @@ Baixe este repositório e com seu teminal, entre no diretório
 2. Depois, instale a extensão Live Server; 
 3. Em seguida, abra o index.html com o Live Server para ver o projeto.
 
+
 ## 🔖 Layout
 
-Você pode visualizar o projeto no ar através [desse link](https://joseronaldo.netlify.app/).
+Você pode visualizar o projeto no ar através [desse link](https://m-abdias.github.io/GreenTech/).
+
+
+## 🤝 Equipe
+
+Nossa super equipe conta com os colaboradores:
+
+- ANDRÉ VITOR - Desenvolvedor FullStack UI 
+- JOSÉ RONALDO - Desenvolvedor Frontend UI | UX
+- MARIANA ABDIAS - Desenvolvedora FullStack UI | UX
+- PAULO MORAES - Desenvolvedor FullStack 
+- WESLEY SILVA - Desenvolvedor FullStack
+
 
 ## 📝 Licença
 
