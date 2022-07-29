@@ -41,13 +41,6 @@ function showAndCloseModal(modal, fade, closeModalButton, openModalButton) {
 }
 
 showAndCloseModal(
-  modalProducts,
-  fadeProducts,
-  closeModalButtonProducts,
-  openModalButtonProducts
-)
-
-showAndCloseModal(
   modalInventory,
   fadeInventory,
   closeModalButtonInventory,
