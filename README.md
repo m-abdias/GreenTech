@@ -64,10 +64,24 @@ Você pode visualizar o projeto no ar através [desse link](https://m-abdias.git
 Nossa super equipe conta com os colaboradores:
 
 - ANDRÉ VITOR - Desenvolvedor FullStack UI 
+  - [Linkedin](https://www.linkedin.com/in/andre-vitor-favaro/)
+  - [Github](https://github.com/andrefavaro)
+  
 - JOSÉ RONALDO - Desenvolvedor Frontend UI | UX
+  - [Linkedin](https://www.linkedin.com/in/devjoseronaldo/)
+  - [Github](https://github.com/Dev-JoseRonaldo)
+  
 - MARIANA ABDIAS - Desenvolvedora FullStack UI | UX
+  - [Linkedin](https://www.linkedin.com/in/mariana-abdias-gon%C3%A7alves-16101269/)
+  - [Github](https://github.com/m-abdias)
+  
 - PAULO MORAES - Desenvolvedor FullStack 
+  - [Linkedin](https://www.linkedin.com/in/paulofcmoraes/)
+  - [Github](https://github.com/paulofcm)
+  
 - WESLEY SILVA - Desenvolvedor FullStack
+  - [Linkedin](https://linkedin.com/in/weslei-batista-666909230)
+  - [Github](https://github.com/wesleibatista)
 
 
 ## 📝 Licença
