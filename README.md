@@ -72,7 +72,7 @@ Nossa super equipe conta com os colaboradores:
   - [Github](https://github.com/Dev-JoseRonaldo)
   
 - MARIANA ABDIAS - Desenvolvedora FullStack UI | UX
-  - [Linkedin](https://www.linkedin.com/in/mariana-abdias-gon%C3%A7alves-16101269/)
+  - [Linkedin](https://www.linkedin.com/in/devmabdias/)
   - [Github](https://github.com/m-abdias)
   
 - PAULO MORAES - Desenvolvedor FullStack 
